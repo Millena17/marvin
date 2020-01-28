@@ -1,5 +1,5 @@
 function penultimo(palavra){
-const palavras=palavra;
-return palavra.substring(-2,-1);
+
+return palavra.substr(-2,1);
     
 }
