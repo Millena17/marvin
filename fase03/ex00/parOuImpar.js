@@ -1,8 +1,11 @@
 function parOuImpar(numero){
-  if(numero % 2 ===0) {
+    var num = numero;
+    var resto = num% 2;
+  if(resto ===0) {
+     
       return("Impar");
-  } else {
+  } 
+  else {
     return("par");
-    
   }
 }
