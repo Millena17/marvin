@@ -3,9 +3,9 @@ function parOuImpar(numero){
     var resto = num% 2;
   if(resto ===0) {
      
-      return("Impar");
+      return"par";
   } 
   else {
-    return("par");
+    return"Impar";
   }
 }
