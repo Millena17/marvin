@@ -1,7 +1,7 @@
 function vogalOuConsoante(letra){
-    const letras = letra.toLowerCase()
+    var letra = letra.toLowerCase()
     
-    if(letras === "a" || letras === "e" || letras === "i" || letras === "o" || letras === "u"){
+    if(letra === "a" || letra === "e" || letra === "i" || letra === "o" || letra === "u"){
         return("Vogal")
     }
     else{
