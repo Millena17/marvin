@@ -2,12 +2,12 @@ function tempo(data1, data2, unidade){
     var dataIni = new Date (data1);
     var dataFim = new Date (data2);
     switch(unidade){
-        case"dia":
+        case "dia":
             var dia = Math.abs(dataIni.getTime()-
             dataFim.getTime())/1000/60/60/24;
             return Math.round(dia);
             case "mês" :
-            var mes = Math.abs(dateIni.getTime()-
+            var mes = Math.abs(dataIni.getTime()-
             dataFim.getTime())/1000/60/60/24/30;
             return Math.round(mes);
             default:
@@ -16,4 +16,5 @@ function tempo(data1, data2, unidade){
             return Math.round(periodo);
     }
 }
+
 
