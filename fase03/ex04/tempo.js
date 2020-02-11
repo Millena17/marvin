@@ -6,7 +6,7 @@ function tempo(data1, data2, unidade){
             var dia = Math.abs(dataIni.getTime()-
             dataFim.getTime())/1000/60/60/24;
             return Math.round(dia);
-            case "mes" :
+            case "mês" :
             var mes = Math.abs(dateIni.getTime()-
             dataFim.getTime())/1000/60/60/24/30;
             return Math.round(mes);
