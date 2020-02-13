@@ -1,19 +1,21 @@
-function fizzbuzz(num1,num2){
-    var c = num1
-    while(c <= num2){
-           if(c % 3 === 0){
-        console.log(c + "Fizz")
-        c++
+function fizzbuzz(num1, num2){
+    var a = num1
+    while (a <= num2){
+    if (a % 3 === 0 && a % 5 === 0){
+        console.log (a + " FizzBuzz ")
+        a++
     }
-    if(c % 5 === 0){
-        console.log(c + "Buzz")
-        c++
+    if (a % 5 === 0){
+        console.log (a + " Buzz ")
+        a++
     }
-    if(c % 3 === 0 && c % 5 === 0){
-     console.log( + "FizzBuzz")
-     c++
-    }
-    console.log(c)
-    c++
-    }
+         if (a % 3 === 0){
+        console.log (a + " Fizz ")
+        a++
+}
+
+console.log(a)
+a++
+
+}
 }
